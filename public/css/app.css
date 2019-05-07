@@ -10765,3 +10765,16 @@ p {
   padding: 0;
 }
 
+.wrapper .content.img-content .row {
+  margin-bottom: 30px;
+}
+
+.wrapper .content.img-content img {
+  width: 100%;
+  margin-top: 0;
+}
+
+.wrapper .content.img-content img.img-small {
+  width: 80%;
+}
+
