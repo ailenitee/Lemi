@@ -23,7 +23,7 @@
         <img src="{{asset('images/appstore.png')}}" class="badges float-right" alt="">
       </div>
       <div class="col-md-6">
-        <img src="{{asset('images/google.png')}}" class="badges float-left" alt="">
+        <img src="{{asset('images/google-play-live.svg')}}" class="badges float-left" alt="">
       </div>
     </div>
     <div class="content">
@@ -66,7 +66,43 @@
       </div>
 
     </div>
+    <div class="content idea-content">
+      <h2 class="text-center">Here are some lists to start you off!</h2>
+      <p class="text-center">Find out what others are recommending to Lemi.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{{asset('images/ideas-1.png')}}" alt="">
+          <p class="idea-text">Party in Thonglor <br/> <span>Bangkok</span> </p>
+        </div>
+        <div class="col-md-4">
+          <img src="{{asset('images/ideas-2.png')}}" alt="">
+          <p class="idea-text">English Mornings <br/> <span>London, Slough</span> </p>
+        </div>
+        <div class="col-md-4">
+          <img src="{{asset('images/ideas-3.png')}}" alt="">
+          <p class="idea-text">Delicious Dai Pai Dongs <br/> <span>Hong Kong</span> </p>
+        </div>
+        <div class="col-md-12">
+          <button type="button" class="btn btn-green btn-lg">See more lists</button>
+        </div>
+      </div>
+    </div>
+    <div class="content lemi-content">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="{{asset('images/visual2.png')}}" alt="">
+          <p>
+            Lemi is better in your pocket. Discover more and create your own Lists in our IOS App.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="{{asset('images/appstore.png')}}" class="badges float-right" alt="">
+        </div>
+        <div class="col-md-6">
+          <img src="{{asset('images/google-play-live.svg')}}" class="badges float-left" alt="">
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
+</div> 
 @stop
